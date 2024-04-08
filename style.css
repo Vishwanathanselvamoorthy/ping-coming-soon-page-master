@@ -10,7 +10,7 @@ body {
   height: 100vh;
 }
 .main-container {
-  max-width: 400px;
+  max-width: 800px;
   height: 100vh;
 }
 .main-container .dashboard-img {
@@ -27,7 +27,7 @@ body {
 .main-container p {
   text-align: center;
   margin: 35px 0px;
-  color: hsl(0, 0%, 59%);
+  /* color: hsl(0, 0%, 59%); */
 }
 .main-container h2 span {
   color: hsl(0, 0%, 59%);
@@ -39,9 +39,9 @@ body {
 }
 .main-container .input-boxes input {
   width: 100%;
-  margin-bottom: 20px;
   padding: 15px;
   border-radius: 20px;
+  margin: 20px 0px;
   border: none;
   border: 1px solid hsl(223, 100%, 88%);
 }
@@ -58,7 +58,9 @@ body {
 
 .main-container .social-media {
   position: relative;
-  top: 200px;
+  top: 80px;
+  /* margin-bottom: 500px 0px; */
+  padding-bottom: 20px;
   text-align: center;
 }
 .main-container .social-media i {
@@ -72,4 +74,24 @@ body {
 }
 .main-container .social-media p {
   font-size: 16px;
+}
+@media screen and (min-width: 1024px) {
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+  }
+  .main-container .input-boxes {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .main-container .input-boxes input {
+    width: 70%;
+    margin: 0;
+  }
+  .main-container .input-boxes button {
+    width: 30%;
+  }
 }
