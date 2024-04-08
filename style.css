@@ -27,7 +27,6 @@ body {
 .main-container p {
   text-align: center;
   margin: 35px 0px;
-  /* color: hsl(0, 0%, 59%); */
 }
 .main-container h2 span {
   color: hsl(0, 0%, 59%);
@@ -42,7 +41,7 @@ body {
   font-weight: 600;
 }
 .bad {
-  color: red;
+  color: hsl(354, 100%, 66%);
   font-weight: 600;
 }
 .main-container .input-boxes input {
@@ -63,11 +62,13 @@ body {
   box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.1);
   font-weight: 600;
 }
+.main-container .input-boxes button:hover {
+  background-color: hsl(223, 100%, 88%);
+}
 
 .main-container .social-media {
   position: relative;
   top: 80px;
-  /* margin-bottom: 500px 0px; */
   padding-bottom: 20px;
   text-align: center;
 }
@@ -80,6 +81,10 @@ body {
   margin-right: 15px;
   font-size: 30px;
 }
+.main-container .social-media i:hover {
+  color: white;
+  background-color: hsl(223, 87%, 63%);
+}
 .main-container .social-media p {
   font-size: 16px;
 }
@@ -88,7 +93,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* height: 100vh; */
   }
   .main-container .input-boxes {
     display: flex;

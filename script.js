@@ -1,27 +1,25 @@
 const errorMessage = document.querySelector(".error-msg");
-
 const submitButton = document.querySelector(".submit-btn");
-
 const emailValue = document.querySelector(".email-value");
 
 const validateEmailFunc = function (email) {
-  const isEmailValid = /^([a-zA-Z0-9._%-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,})$/.test(
-    email
-  );
-  if (!isEmailValid) {
-    return true;
-  } else {
-    return false;
-  }
+  return !/^([a-zA-Z0-9._%-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,})$/.test(email);
 };
 
 submitButton.addEventListener("click", () => {
+  let message, cssClass;
   if (validateEmailFunc(emailValue.value)) {
-    errorMessage.textContent = "Please Provide a Valid Email Address";
-    errorMessage.classList.add("bad");
+    message = "Please Provide a Valid Email Address";
+    cssClass = "bad";
   } else {
-    errorMessage.textContent = "Notify Will Be Sent To You";
-    errorMessage.classList.add("good");
+    message = "Notify Will Be Sent To You";
+    cssClass = "good";
   }
+  
+  errorMessage.textContent = message;
+  errorMessage.classList.add(cssClass);
+  
+  // Clear the input value
   emailValue.value = "";
 });
+
