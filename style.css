@@ -11,6 +11,7 @@ body {
 }
 .main-container {
   max-width: 400px;
+  height: 100vh;
 }
 .main-container .dashboard-img {
   width: 100%;
