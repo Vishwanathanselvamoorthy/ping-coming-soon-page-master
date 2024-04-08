@@ -55,7 +55,7 @@ body {
 }
 
 .main-container .social-media {
-  position: absolute;
+  position: fixed;
   bottom: 0;
   text-align: center;
 }
