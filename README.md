@@ -14,9 +14,9 @@ Ping is a simple web application that allows users to subscribe and receive noti
 
 ## Tech Stack 🔨
 
-- **HTML 🌐
-- **CSS 🎨
-- **JAVASCRIPT 🚀
+- HTML 🌐
+- CSS 🎨
+- JAVASCRIPT 🚀
 
 [Ping - Stay Notified Demo Link](https://ping-coming-soon-page-master-eta.vercel.app/)
 
