@@ -12,6 +12,12 @@ Ping is a simple web application that allows users to subscribe and receive noti
 - **Clear Messaging**: Communicates clearly with users about the status of their subscription request.
 - **Responsive Design**: Ensures a seamless experience across various devices and screen sizes.
 
+## Tech Stack 🔨
+
+- **HTML 🌐
+- **CSS 🎨
+- **JAVASCRIPT 🚀
+
 [Ping - Stay Notified Demo Link](https://ping-coming-soon-page-master-eta.vercel.app/)
 
 ## Screenshots 📸
